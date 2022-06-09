@@ -1,0 +1,39 @@
+#container {
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color: green;
+    width: 160px;
+    padding: 20px;
+    height: 100px;
+}
+
+#add-container {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: 30px;
+}
+#places-container {
+    margin-left: 30px;
+}
+
+.item {
+    width: 150px;
+    margin: 10px;
+    background-color: violet;
+    padding: 10px;
+}
+
+.remove {
+    width: 15px;
+    float: right;
+    color: red;
+    cursor: pointer;
+}
+
+button {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 5px;
+}

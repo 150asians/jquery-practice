@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="./index2.css">
+        <style>
+            .creature {
+                margin: 20px;
+                background-color: yellow;
+                border: 1px solid black;
+            }
+            .terrain {
+                margin: 20px;
+                background-color: green;
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="animals" class="creature category">
+            animals
+            <div class="creature category">Mammals
+                <div class="creature">Dogs</div>
+                <div class="creature">Cats</div>
+                <div class="terrain">Forest</div>
+                <div class="terrain">Steppe</div>
+            </div>
+            <div class="creature category">Reptiles
+                <div class="creature">Snake</div>
+                <div class="creature">Lizard</div>
+                <div class="terrain">Jungle</div>
+            </div>
+        </div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="./index2.js"></script>
+    </body>
+</html>
